@@ -1,1 +1,47 @@
-# CODTECH-Task2
+Name: JETHENDIRAN V
+
+Company: CODTECH IT SOLUTIONS
+
+ID: CT6CSEH1164
+
+Domain: CYBER SECURITY & ETHICAL HACKING
+
+Duration: JULY 10TH to AUGUST 25TH (2024)
+
+Mentor: Muzammil Ahmed
+
+CODTECH-Task-2
+Simple Vulnerability Scanning Tool
+
+This is a simple vulnerability scanning tool that scans a network or website for common security vulnerabilities such as open ports, outdated software versions, and misconfigurations.
+
+Features
+Scan open ports on a target IP or hostname.
+Check for outdated software versions on a target website.
+Identify common misconfigurations in web server headers.
+Prerequisites
+Python 3.x installed on your machine.
+nmap installed and available in the system PATH.
+Required Python libraries: python-nmap and requests.
+
+Installation
+Step 1: Install Python Libraries
+Open your terminal or command prompt and run the following commands to install the required Python libraries:
+
+pip install python-nmap requests
+Step 2: Install Nmap Download and install Nmap from the official site: Nmap Download.
+
+During installation, ensure that you select the option to add Nmap to the system PATH.
+
+Step 3: Verify Nmap Installation Open a new terminal or command prompt and type nmap. You should see the Nmap help output:
+
+Nmap 7.91 ( https://nmap.org )
+Usage: nmap [Scan Type(s)] [Options] {target specification}
+...
+Step 2: Run the Script Execute the Python script:
+
+python vulnerability_scanning_tool.py(code)
+Step 3: Follow Prompts The script will prompt you for a target IP or hostname for port scanning, and a target website URL for checking outdated software and  misconfigurations.  
+
+Sample Hosts for Testing
+ScanMe Nmap: scanme.nmap.org
